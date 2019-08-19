@@ -1,0 +1,32 @@
+table, th, td 
+{ 
+	border-collapse: collapse;
+	color: black; font-size 5px;
+	border: 1px-solid black;
+	width: 100%;
+}
+
+
+td {
+	padding: 5px;
+	text-align: left;
+}
+
+th{
+	height: 50px;
+	padding: 20px;
+	background-color: #A6BCF9;
+	color: white;
+	font-size: 18;
+
+	poistion: fixed;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2;} //striped tables
+
+tr:hover {background-color: #4CB2A8;}  // hover doesn't work....
+
+table{
+	//border-spacing: 5px; //either this or the border-collapse can't have both
+}
